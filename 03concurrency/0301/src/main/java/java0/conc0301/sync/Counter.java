@@ -1,9 +1,14 @@
 package java0.conc0301.sync;
 
+import java.util.concurrent.locks.ReentrantLock;
+
 public class Counter {
-    private int sum = 0;
-    public void incr() {
+    private  int sum = 0;
+//    ReentrantLock reentrantLock = new ReentrantLock();
+    public  void incr() {
+//        reentrantLock.lock();
         sum++;
+//        reentrantLock.unlock();
     }
     public int getSum() {
         return sum;

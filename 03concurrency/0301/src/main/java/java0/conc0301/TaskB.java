@@ -1,6 +1,6 @@
 package java0.conc0301;
 
-public class ThreadB implements Runnable {
+public class TaskB implements Runnable {
 
     @Override
     public void run() {
