@@ -56,7 +56,6 @@ public class HttpOutboundHandler extends ChannelOutboundHandlerAdapter {
     
     public void handle(final FullHttpRequest fullRequest, final ChannelHandlerContext ctx) {
         final String url = this.backendUrl + fullRequest.uri();
-        logger.info("real url:{}",url);
         System.out.println("real url:"+url);
         proxyService.submit(()->fetchGet(fullRequest, ctx, url));
     }

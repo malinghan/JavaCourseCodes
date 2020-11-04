@@ -15,8 +15,8 @@ public class MyHttpEndpointRouter implements HttpEndpointRouter {
 
     @Override
     public String route(List<String> endpoints) {
-        counter.getAndAdd(1);
+        counter.addAndGet(1);
         System.out.println("counter:"+counter.get());
-        return (counter.get() / 2 == 0) ? endpoints.get(0):endpoints.get(1);
+        return (counter.get() % 3 == 0) ? endpoints.get(0):endpoints.get(1);
     }
 }

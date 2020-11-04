@@ -31,15 +31,7 @@ public class MyHttpResponseFilter implements HttpResponseFilter {
     public void handleResponse(final FullHttpRequest fullRequest, final ChannelHandlerContext ctx, final HttpResponse endpointResponse) throws Exception {
         FullHttpResponse response = null;
         try {
-//            String value = "hello,kimmking";
-//            response = new DefaultFullHttpResponse(HTTP_1_1, OK, Unpooled.wrappedBuffer(value.getBytes("UTF-8")));
-//            response.headers().set("Content-Type", "application/json");
-//            response.headers().setInt("Content-Length", response.content().readableBytes());
-
-
             byte[] body = EntityUtils.toByteArray(endpointResponse.getEntity());
-            System.out.println(new String(body));
-            System.out.println(body.length);
             //对response进行过滤、改造
             String bodyString = new String(body)+"abcdefg";
             System.out.println(bodyString);

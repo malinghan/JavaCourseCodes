@@ -23,13 +23,8 @@ public class HttpInboundHandler extends ChannelInboundHandlerAdapter {
 
     private HttpRequestFilter requestFilter;
 
-    private HttpEndpointRouter httpEndpointRouter;
-
-
     public HttpInboundHandler(List<String> endpoints) {
-        httpEndpointRouter = new MyHttpEndpointRouter();
-        String backendUrl = httpEndpointRouter.route(endpoints);
-        handler = new HttpOutboundHandler(backendUrl);
+        handler = new HttpOutboundHandler(new MyHttpEndpointRouter().route(endpoints));
         requestFilter = new MyHttpRequestFilter();
     }
     
