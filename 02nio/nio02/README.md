@@ -19,5 +19,20 @@
     
 - MyHttpEndpointRouter 实现了一个简单的轮询的网关路由       
 - endpoints 取代proxyServer 传入多个实际调用服务信息
-- 
+- 有个问题: 我用浏览器调用时会请求2次，但是curl只请求一次,为啥呢?
+
+
+```
+hello,nioabcdefg
+counter:12
+counter:13
+real url:http://localhost:8088/hello/asa
+hello,nio
+9
+hello,nioabcdefg
+real url:http://localhost:8188/favicon.ico
+hello,nio
+9
+hello,nioabcdefg
+clear
 ```
