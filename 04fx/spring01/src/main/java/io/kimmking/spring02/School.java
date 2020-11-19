@@ -7,6 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.annotation.Resource;
 
+/**
+ * school用于演示注入的方法
+ */
 @Data
 public class School implements ISchool {
     

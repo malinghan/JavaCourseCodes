@@ -3,11 +3,7 @@ package io.kimmking.spring01;
 import com.alibaba.fastjson.JSON;
 
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class StreamDemo {
@@ -18,6 +14,7 @@ public class StreamDemo {
         print(list);
         
         // Optional
+//        List<Integer> list = new ArrayList<>();
         Optional<Integer> first = list.stream().findFirst();
         
         System.out.println(first.map(i -> i * 100).orElse(100));

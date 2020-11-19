@@ -8,6 +8,13 @@ import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 
+/**
+ * Aop2使用注解的方式
+ * pointcut -> 监听Klass的dong
+ * before
+ * after
+ * around
+ */
 @Aspect
 public class Aop2 {
     

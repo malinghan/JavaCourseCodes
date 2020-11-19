@@ -56,18 +56,25 @@ public class GuavaDemo {
     
         
         //Map map = list.stream().collect(Collectors.toMap(a->a,a->(a+1)));
+        //https://www.cnblogs.com/qdhxhz/p/9411511.html
+        //Multimap的特点其实就是可以包含有几个重复Key的value，你可以put进入多个不同value但是相同的key，但是又不是让后面覆盖前面的内容。
+        // 当你需要构造像Map<K, List<V>>或者Map<K, Set<V>>这样比较复杂的集合类型的数据结构，来做相应的业务逻辑处理。那Multimap在合适不过
         Multimap<Integer,Integer> bMultimap = ArrayListMultimap.create();
         list.forEach(
                 a -> bMultimap.put(a,a+1)
         );
         print(bMultimap);
-    
+        print(bMultimap.get(3));
+        //BiMap强制其value的唯一性，如果发现违规则会抛出 IllegalArgumentException
         BiMap<String, Integer> words = HashBiMap.create();
         words.put("First", 1);
         words.put("Second", 2);
         words.put("Third", 3);
+        //java.lang.IllegalArgumentException: value already present: 3
+//        words.put("Third1",3);
     
         System.out.println(words.get("Second").intValue());
+        //inverse方法返回一个反转后的BiMap，即key/value互相切换的映射
         System.out.println(words.inverse().get(3));
     
         Map<String,String> map1 = Maps.toMap(lists.listIterator(),a -> a+"-value");

@@ -17,11 +17,13 @@ public class CollectionDemo {
         print(list);
         Collections.shuffle(list);
         print(list);
-    
+        //统计频率
         System.out.println(Collections.frequency(list, 2));
         System.out.println(Collections.max(list));
-                
-        Collections.fill(list,8);
+        //使用指定元素替换指定列表中的所有元素
+        Collections.fill(list,2);
+        //使用另一个值替换列表中出现的所有某一指定值。更确切地讲，使用 newVal替换 list 中满足 (oldVal==null ? e==null : oldVal.equals(e)) 的每个 e 元素。（此方法对列表的大小没有任何影响。）
+        System.out.println(Collections.replaceAll(list,2,3));;
         print(list);
         
         list = Collections.singletonList(6);
