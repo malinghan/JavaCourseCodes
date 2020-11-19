@@ -11,8 +11,10 @@ public class ThreadMain {
         threadA.start();
         System.out.println("这是主线程：");
 
-        ThreadB threadB = new ThreadB();
-        new Thread(threadB).start();
+        //只是一个任务
+        TaskB taskB = new TaskB();
+//        taskB.run(); 同步的
+        new Thread(taskB).start();
         System.out.println("这是主线程：");
 
         ThreadC threadC = new ThreadC(); 

@@ -2,6 +2,7 @@ package java0.conc0301;
 
 public class ThreadA extends Thread {
 
+    @Override
     public void run() {
         super.run();
         try {

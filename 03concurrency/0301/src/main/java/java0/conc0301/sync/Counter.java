@@ -1,11 +1,11 @@
 package java0.conc0301.sync;
 
 public class Counter {
-    
+
     public final static int A=10;
-    
+
     public static int B=10;
-    
+
     private volatile int sum = 0;
     public synchronized void incr() {
         sum=sum+1;

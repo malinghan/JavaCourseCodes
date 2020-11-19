@@ -4,9 +4,9 @@ public class ThreadMain2 {
 
     public static void main(String[] args) {
 
-        ThreadB threadB = new ThreadB();
+        TaskB taskB = new TaskB();
         for (int i = 0; i < 5; i++) {
-            new Thread(threadB, "线程名称：（" + i + "）").start();
+            new Thread(taskB, "线程名称：（" + i + "）").start();
         }
 
         try {
