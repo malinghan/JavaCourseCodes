@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/001jvm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/002nio/nio02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/002nio/nio02/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/002nio/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04fx/Java8inAction/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04fx/Java8inAction/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04fx/demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04fx/dtx01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04fx/dtx01/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04fx/springboot01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04fx/springboot01/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07rpc/mysql-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08cache/cache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08cache/cache/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08cache/redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08cache/redis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09mq/activemq-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09mq/kafka-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09mq/kmq-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09mq/kmq-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09mq/pulsar/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09mq/pulsar/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09mq/rabbit/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09mq/rabbit/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09mq/rocket/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09mq/rocket/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09mq/spring-kafka-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09mq/spring-kafka-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09mq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09mq/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/11dfs/dfs/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demoidea/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demoidea/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java11/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java11/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

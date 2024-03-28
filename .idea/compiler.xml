@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="2000" />
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demoidea" />
+        <module name="kafka-demo (1)" />
+        <module name="demo (1) (com.example)" />
+        <module name="002nio" />
+        <module name="rocket" />
+        <module name="java8inaction" />
+        <module name="redis" />
+        <module name="springboot01" />
+        <module name="0301" />
+        <module name="java8" />
+        <module name="demo (2) (com.example)" />
+        <module name="rabbit" />
+        <module name="activemq-demo" />
+        <module name="dtx01" />
+        <module name="app" />
+        <module name="cache" />
+        <module name="demo (1) (io.kimmking.javacourse)" />
+        <module name="kafka-demo" />
+        <module name="nio01" />
+        <module name="spring01" />
+        <module name="netty-gateway" />
+        <module name="dfs" />
+        <module name="001jvm" />
+        <module name="mysql-demo" />
+        <module name="kmq-core" />
+        <module name="pulsar" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="001jvm" target="8" />
+      <module name="002nio" target="8" />
+      <module name="01jvm" target="1.5" />
+      <module name="0301" target="8" />
+      <module name="activemq-demo" target="1.8" />
+      <module name="app" target="1.8" />
+      <module name="cache" target="1.8" />
+      <module name="demo" target="11" />
+      <module name="demo (1) (com.example)" target="1.8" />
+      <module name="demo (1) (io.kimmking.javacourse)" target="1.8" />
+      <module name="demo (2) (com.example)" target="11" />
+      <module name="demoidea" target="1.8" />
+      <module name="dfs" target="11" />
+      <module name="dtx01" target="1.8" />
+      <module name="java8" target="8" />
+      <module name="java8inaction" target="1.8" />
+      <module name="kafka-demo" target="1.8" />
+      <module name="kafka-demo (1)" target="1.8" />
+      <module name="kmq-core" target="1.8" />
+      <module name="mysql-demo" target="1.8" />
+      <module name="netty-gateway" target="1.8" />
+      <module name="nio01" target="8" />
+      <module name="pulsar" target="1.8" />
+      <module name="rabbit" target="1.8" />
+      <module name="redis" target="1.8" />
+      <module name="rocket" target="1.8" />
+      <module name="spring01" target="8" />
+      <module name="springboot01" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-parameters" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="01jvm" options="" />
+      <module name="0301" options="" />
+      <module name="java8" options="" />
+      <module name="java8inaction" options="" />
+      <module name="nio01" options="" />
+      <module name="spring01" options="" />
+    </option>
+  </component>
+</project>

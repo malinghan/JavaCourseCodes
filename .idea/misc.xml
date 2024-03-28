@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/002nio/nio01/pom.xml" />
+        <option value="$PROJECT_DIR$/002nio/nio02/pom.xml" />
+        <option value="$PROJECT_DIR$/03concurrency/0301/pom.xml" />
+        <option value="$PROJECT_DIR$/04fx/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/04fx/dtx01/pom.xml" />
+        <option value="$PROJECT_DIR$/04fx/java8/pom.xml" />
+        <option value="$PROJECT_DIR$/04fx/Java8inAction/pom.xml" />
+        <option value="$PROJECT_DIR$/04fx/spring01/pom.xml" />
+        <option value="$PROJECT_DIR$/04fx/springboot01/pom.xml" />
+        <option value="$PROJECT_DIR$/07rpc/mysql-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/08cache/cache/pom.xml" />
+        <option value="$PROJECT_DIR$/08cache/redis/pom.xml" />
+        <option value="$PROJECT_DIR$/09mq/activemq-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/09mq/kafka-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/09mq/kmq-core/pom.xml" />
+        <option value="$PROJECT_DIR$/09mq/pulsar/pom.xml" />
+        <option value="$PROJECT_DIR$/09mq/rabbit/pom.xml" />
+        <option value="$PROJECT_DIR$/09mq/rocket/pom.xml" />
+        <option value="$PROJECT_DIR$/09mq/spring-kafka-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/11dfs/dfs/pom.xml" />
+        <option value="$PROJECT_DIR$/app/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/demoidea/pom.xml" />
+        <option value="$PROJECT_DIR$/java11/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>
